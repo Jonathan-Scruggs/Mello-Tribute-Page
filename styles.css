@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Cloister Black', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+header > p {
+    font-family: Abril Fatface;
+    font-size: 24px;
+    color: white;
+    padding: 0 20px;
+    margin: 20px 0 0;
+    
+}
+#title {
+    margin-bottom: 10px;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+#img-div img {
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid white;
+    max-width: 100%;
+    height: auto;
+}
+#tribute-info {
+   display: flex;
+   margin: 0px 40px 40px 10px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 100px;
+   font-size: 30px;
+}
+#image {
+    max-width: fit-content;
+    height: fit-content;
+}
+a {
+    color: #FFD700; /* Gold */
+}
